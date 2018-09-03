@@ -1,0 +1,647 @@
+body, header, footer, nav, h1, h2, h3, h4, p, article, section, img, table, ul, li,
+td, tr, div
+{
+	margin:0;
+	padding: 0;
+	
+}
+.main-wrapper
+{
+	margin:0 auto;
+	padding:0;
+	width:1007px;
+	min-height:800px;
+	background-size:100%;
+	background-color:#000;
+}
+header
+{
+	margin:0;
+	padding:0;
+	width:1007px;
+	height:194px;
+	background-color:#903;
+}
+.slider
+{
+	margin:0;
+	padding:0;
+	width:1007px;
+	height:350px;	
+}
+.logo-box
+{
+	margin:0 0 0 300px;
+	width:327px;
+	height:130px;
+	float:left;
+}
+.logo-box img
+{
+	margin:0;
+	width:327px;
+	height:130px;
+	float:left;
+}
+
+nav
+{
+	margin:130px 0 0 0;
+	padding:0 0 0 0;
+	background-color:transparent;
+}
+.about-box
+{
+	margin:30px 0 0 0;
+	padding:25px 0 0 0;
+	width:1007px;
+	height:100px;
+	background-color:#f6dad1;
+}
+.about-box h1
+{
+	font-size:30px;
+	line-height:1.33em;
+	font-family:"Montserrat,sans";
+	font-weight:700px;
+	color:#A2573E;
+	font-weight:700;
+	text-align:center;
+}
+.about-box h2
+{
+	font-size:26px;
+	color:#3C362F;
+	line-height:1.78em;
+	font-family:"Montserrat,sans";
+	font-weight:700;
+	text-align:center;
+}
+
+		/* OPEN HOME PAGE */
+	
+	
+.page-area
+{
+	margin:0;
+	padding:125px 0 0 0;
+	width:1007px;
+	height:522px;
+	background:url(images/strawberry.png);
+}
+.page-area h2
+{
+	margin:0;
+	font-family:"Playfair Display";
+	font-size:140px;
+	line-height:1.2em;
+	font-weight:900;
+	font-style:normal;
+	color:#FFFFFF;
+	text-align:center;
+}
+.page-area h4
+{
+	margin:65px 0 0 0;
+	font-family:"Playfair Display";
+	font-size:48px;
+	line-height:1em;
+	font-style:normal;
+	color:#FFFFFF;
+	text-align:center;
+	font-style:italic;
+}
+.page-area img
+{
+	margin:60px 0 0 340px;
+}
+.timing-box
+{
+	margin:0;
+	padding:70px 0 0 0;
+	width:1007px;
+	height:145px;
+	background-color:#f6dad1;
+}
+.timing-box h3
+{
+	font-size:30px;
+	font-weight:700;
+	line-height:1em;
+	font-family:"Montserrat,sans";
+	color:#3C362F;
+	text-align:center;
+}
+.cafe-box
+{
+	margin:0;
+	padding:100px 0 0 0;
+	width:1007px;
+	height:770px;
+}
+.cafe-box h1
+{
+	margin:0 0 50px 0;
+	font-size:60px;
+	font-family:"Playfair Display";
+	font-weight:900;
+	line-height:1.2em;
+	text-align:center;
+	color:#A2573E;
+}
+.cafe-box h4
+{
+	margin:60px 0 0 0;
+	font-size:24px;
+	font-family:"Montserrat,sans";
+	font-weight:700;
+	line-height:1em;
+	letter-spacing:2.89px;
+	color:#A2573E;
+	text-transform:uppercase;
+	text-align:center;
+}
+.cafe-box p
+{
+	margin:30px 0 0 180px;
+	width:650px;
+	height:150px;
+	font:16px;
+	font-family:"Montserrat,sans";
+	text-align:center;
+	line-height:1.56em;
+	color:#26201B;
+	font-weight:500;
+}
+.image-box
+{
+	margin:0;
+	padding:80px 0 0 190px;
+	width:807px;
+	height:700px;
+	background:url(images/restaurant.png);
+}
+.image-box p
+{
+	margin:0;
+	width:640px;
+	height:670px;
+	font-size:30px;
+	font-family:"Playfair Display";
+	line-height:1em;
+	color:#FFFFFF;
+	font-weight:700;
+	font-style:italic;
+	text-align:center;
+}
+.meal-box
+{
+	margin:0;
+	padding:90px 0 0 70px;
+	width:937px;
+	height:1200px;
+}
+.meal-box h1
+{
+	margin:0 0 40px 0;
+	font-size:60px;
+	line-height:1.2em;
+	color:#A2573E;
+	font-family:"Playfair Display";
+	font-weight:bolder;
+	text-align:center;
+}
+.people-box
+{
+	margin:0;
+	padding:70px 0 0 55px;
+	width:952px;
+	height:820px;
+	background-color:#534c46;
+}
+.people-box h3
+{
+	margin:0;
+	font-family:"Playfair Display";
+	font-size:60px;
+	font-weight:900;
+	line-height:1em;
+	color:#FFFFFF;
+	text-align:center;
+}
+.people-box h4
+{
+	width:390px;
+	height:270px;
+	font-size:25px;
+	font-family:"Playfair Display";
+	line-height:1.4em;
+	color:#FFFFFF;
+	font-style:italic;
+	float:left;
+	text-align:center;
+}
+.people-box h5
+{
+	margin:100px 130px 0 130px;
+	font-size:20px;
+	line-height:1.5em;
+	font-weight:700;
+	font-family:"Montserrat,sans";
+	text-transform:uppercase;
+	letter-spacing:2.4px;
+	color:#FF9933;
+}
+.Newsletter-box
+{
+	margin:0;
+	padding:70px 0 0 30px;
+	width:977px;
+	height:160px;
+	background-color:#f6dad1;
+}
+.Newsletter-box h6
+{
+	font-size:30px;
+	font-family:"Montserrat,sans";
+	line-height:1.56em;
+	letter-spacing:-0.9px;
+	color:#A2573E;
+	float:left;
+	font-weight:700;
+}
+.Newsletter-box input
+{
+	width:385px;
+	height:50px;
+	border:1px solid #C90;
+	border-radius:10px;
+	text-align:center;
+	font-family:"Playfair Display";
+	font-size:24px;
+	font-weight:400;
+	font-style:italic;
+}
+.Newsletter-box .Subs-box
+{
+	width:150px;
+	height:50px;
+	border:1px solid #C90;
+	border-radius:10px;
+	text-align:center;
+	font-family:"Playfair Display";
+	font-size:16px;
+	font-weight:200;
+	font-style:italic;
+	background-color:#CC0;
+}
+.Newsletter-box .Subs-box:hover
+{
+	color:#FF6;
+}
+	
+		/* CLOSE HOME PAGE */
+
+
+	
+		/* OPEN ABOUT US PAGE */
+
+
+.restaurent-box
+{
+	margin:0;
+	padding:0;
+	width:1007px;
+	height:870px;
+}
+.restaurent-box h1
+{
+	margin:90px 0 60px 0;
+	font-family:"Playfair Display";
+	font-size:60px;
+	line-height:1.2em;
+	color:#A2573E;
+	font-weight:900;
+	text-align:center;
+}
+.restaurent-box img
+{
+	margin:0 auto;
+	width:980px;
+	height:335px;
+}
+.restaurent-box section
+{
+	margin:60px 0 0 185px;
+	width:645px;
+	height:215px;
+	font-size:20px;
+	font-family:"Montserrat,sans";
+	font-weight:700;
+	line-height:1.75em;
+	color:#26201B;
+	text-align:center;
+	font-style:italic;
+}
+.staff-box
+{
+	margin:0;
+	padding:85px 0 0 40px;
+	width:922px;
+	height:870px;
+	background-color:#534c46;
+}
+.staff-box h1
+{
+	font-size:60px;
+	font-family:"Playfair Display";
+	color:#FFFFFF;
+	line-height:1em;
+	font-weight:900;
+	text-align:center;
+}
+.staff-box img
+{
+	margin:95px 85px 0 40px;
+	width:175px;
+	height:175px;
+	float:left;
+}
+.staff-box h6
+{
+	font-size:20px;
+	line-height:1.5em;
+	font-weight:700;
+	font-family:"Montserrat,sans";
+	text-transform:uppercase;
+	letter-spacing:2.4px;
+	color:#FF9933;
+	float:left;
+}
+.staff-box h6:hover
+{
+	color:#FF3;
+}
+.staff-box section
+{
+	margin:50px 30px 0 0;
+	width:270px;
+	height:300px;
+	font-size:22px;
+	font-family:"Playfair Display";
+	font-style:italic;
+	line-height:1.4em;
+	text-align:center;
+	float:left;
+	color:#ffffff;
+}
+.dishes-box
+{
+	margin:0;
+	padding:70px 0 0 20px;
+	width:1007px;
+	min-height:975px;
+}
+.dishes-box h1
+{
+	font-size:60px;
+	font-family:"Playfair Display";
+	line-height:1.2em;
+	font-weight:900;
+	color:#A2573E;
+	text-align:center;
+}
+.dishes-box img
+{
+	margin:60px 25px 0 0;
+	width:475px;
+	height:485px;
+	border-radius:30px;
+	float:none;
+}
+.dishes-box h3
+{
+	margin:60px 180px 0 120px;
+	font-size:25px;
+	font-family:"Playfair Display";
+	color:#26201B;
+	line-height:1.4em;
+	font-weight:700;
+	font-style:italic;
+	float:left;
+}
+.dishes-box h3:hover
+{
+	color:#F90;
+}
+.dishes-box h4
+{
+	font-size:25px;
+	font-family:"Playfair Display";
+	color:#26201B;
+	line-height:1.4em;
+	font-weight:700;
+	font-style:italic;
+	float:left;
+}
+.dishes-box h4:hover
+{
+	color:#F90;
+}
+.dishes-box p
+{
+	margin:60px 40px 0 0;
+	width:430px;
+	height:65px;
+	font-size:18px;
+	font-family:"Montserrat,sans";
+	color:#333333;
+	text-align:center;
+	line-height:1.56em;
+	float:left;
+}
+.delivery-box 
+{
+	margin:0;
+	padding:130px 0 0 0;
+	width:1007px;
+	min-height:705px;
+	background:url(images/delivery-1.jpg);
+	border-radius:5px;
+}
+.delivery-box p
+{
+	margin:0 auto;
+	width:535px;
+	height:450px;
+	font-size:30px;
+	font-family:"Playfair Display";
+	line-height:1em;
+	font-style:italic;
+	text-align:center;
+	font-weight:900;
+	color:#ccc;
+}
+.delivery-box p:hover
+{
+	color:#FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+		/* OPEN CONTACT PAGE */
+		
+		
+.Contact-area
+{
+	margin:0;
+	padding:90px 0 0 0;
+	width:1007px;
+	height:960px;
+}
+.Contact-area h1
+{
+	font-family:"Playfair Display";
+	font-size:48px;
+	line-height:1.2em;
+	font-style:italic;
+	color:#333333;
+	font-weight:700;
+	text-align:center;
+}
+.Contact-area img
+{
+	margin:60px 180px 0 110px;
+	width:40px;
+	height:36px;
+}
+.Contact-area h2
+{
+	margin:35px 145px 0 75px;
+	font-family:"Playfair Display";
+	font-size:30px;
+	line-height:1.33em;
+	font-style:italic;
+	font-weight:700;
+	color:#26201B;
+	float:left;
+}
+.Contact-area h2:hover
+{
+	color:#FC3;
+}
+.Contact-area p
+{
+	margin:20px 25px 0 0px;
+	width:300px;
+	height:40px;
+	font-family:"Montserrat,sans";
+	font-size:18px;
+	line-height:1.56em;
+	font-weight:300;
+	font-style:normal;
+	text-align:center;
+	color:#FF9933;
+	float:left;
+}
+.Contact-area form
+{
+	float:left;
+}
+.Contact-area form Input
+{
+	width:190px;
+	height:50px;
+	margin:50px 0 10px 10px;
+	border-radius:10px 10px 10px 10px;
+	border:2px solid #C93;
+	font-family:"Montserrat,sans";
+	font-size:18px;
+	font-style:italic;
+	color:#000;
+	font-weight:200;
+	line-height:1em;
+	text-align:center;
+}
+.contact-area form .send
+{
+	margin:35px 0 0 0;
+	padding:30px 0 0 0;
+	width:160px;
+	height:80px;
+	font-family:"Montserrat,sans";
+	font-size:18px;
+	font-style:italic;
+	font-weight:200;
+	color:#ff9933;
+	line-height:1em;
+	text-align:center;
+}
+.map
+{
+	margin:60px 0 0 0;
+}
+			/* CLOSE CONTACT PAGE */
+			
+			
+			
+			
+			
+			
+			/*  OPEN GALLERY  */
+	
+	
+.Gallery
+{
+	margin:80px 0 50px 0;
+	padding:0 0 0 70px;
+	width:937px;
+	min-height:550px;
+	
+}
+.Gallery p
+{
+	margin:50px auto;
+	font-size:48px;
+	font-family:"Montserrat,sans";
+	font-style:normal;
+	font-weight:bolder;
+	color:#F00;
+	line-height:1.5em;
+	text-align:center;
+}
+
+
+
+
+		/*  CLOSE GALLERY  */
+
+
+footer
+{
+	padding:92px 0 0 17px;
+	width:990px;
+	height:98px;
+	background-color:#26201b;
+}
+footer section
+{
+	font-family:"Montserrat,sans";
+	font-size:16px;
+	line-height:1.56em;
+	color:#FFFFFF;
+	float:left;
+}
+footer section img
+{
+	margin:0 40px 0 0;
+	float:right;
+}
